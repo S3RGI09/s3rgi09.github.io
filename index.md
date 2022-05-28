@@ -81,6 +81,6 @@ Si tienes un problema con un script contacta conmigo.
 
 ### Paginas
 
-[Home](index.md) | [Repositorios](repositorios) | [Proyectos](proyectos) | [Buscador](Buscador) | [Contacto](contacto)
+[Home](index.md) | [Repositorios](repositorios) | [Proyectos](proyectos) | [Buscador](Buscador) | [Contacto](contacto) | [Bugzilla](https://bugzilla-s3rgi09.github.io/) | [H4ckS0r7](https://h4cks0r7.github.io/)
 
 🄯S3RGI09
