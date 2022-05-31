@@ -1,7 +1,7 @@
 [Home](index.md) | [Repositorios](repositorios) | [Proyectos](proyectos) | [Contacto](contacto)
 
 # Manual de instrucciones de Scan
-![167315668-5b6290ae-3acd-451e-abb4-10b2fd353a23](https://user-images.githubusercontent.com/96842235/169378238-ce5da0d2-f192-453a-a87f-a82055293db4.png)
+![$  Scan py (1)](https://user-images.githubusercontent.com/96842235/171235719-1050cbde-b60f-4aa4-a41b-4a68455909dc.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -14,15 +14,6 @@ Herramienta para escanear puertos de una IP. El script escrito en python funcion
 Hacer un escaneo con Nmap puede llegar a ser algo dificil para la gente que recien a empezado en la informatica por culpa de todos sus parametros, yo lo que recomiendo es que si estas aprendiendo NO UTILICES ESTE SCRIPT, ya que lo unico que aprenderias sera a tenerlo todo echo. Pero si eres un profesional o un aficionado con conceptos avanzados sobre Nmap y su sondeo, este script solo te hara ahorrar tiempo. Para iniciar un escaneo es muy simple, solo vete al directorio donde tienes el archivo del script y haz en tu consola ```./scan.py``` si le has asignado permisos de ejecucion, si no tendras que hacer un ```python scan.py```, de las dos maneras tendras el script corriendo, ahora solo pon la IP a la que quieres hacer el escaneo, en unos 2-3 segundos tendras los resultados del escaneo en tu pantalla.
 ![Captura de pantalla_2022-05-08_22-04-01](https://user-images.githubusercontent.com/96842235/167313797-12f5d574-fc3d-4f9b-85e2-3de28296440d.png)
 
-Las cosas que hace Scan son varias, te las ponemos aqui en orden
-* Nombre del host/IP
-* Estado del host
-* Protocolo utilizado en los puertos
-* Numero del puerto
-* Servicio del puerto
-* Comando para el escaneo de puertos abiertos en Nmap
-Tambien cabe destacar que al ser software libre, puedes modificarlo para que te salga el estado de los puertos, las versiones, incluso la detencion de sistema operativo, entre otras cosas...
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## No funciona el escaneo
@@ -33,7 +24,7 @@ Si sigue sin funcionar y su pc o laptop tiene un hardware muy antiguo instale Sc
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Como instalar Scan
-Para instalar el script es muy simple y hay dos opciones. La primera y la más facil es ejecutar en tu terminal ```bash instalacion.sh```, este archvio es un pequeño script que sirve para realizar todas las tareas para utilizar correctamente Scan sin errores. Y la segunda es seguir un pequeño resumen de la instalacion que haremos aqui:
+Para instalar el script es muy simple y hay dos opciones. La primera y la más facil es ejecutar en tu terminal ```ash instalacion.sh```, este archvio es un pequeño script que sirve para realizar todas las tareas para utilizar correctamente Scan sin errores. Y la segunda es seguir un pequeño resumen de la instalacion que haremos aqui:
 
 [Paso 1:] Vamos a empezar por lo basico, instalaremos la libreria Python-nmap, ponga en su consola: ```pip install python-nmap```
 
