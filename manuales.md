@@ -1,8 +1,6 @@
 [Home](index.md) | [Repositorios](repositorios) | [Manuales](manuales) | [Contacto](contacto)
 
-# Proyectos
-## La web de los proyectos:
-Web de proyectos [H4ckS0r7](https://h4cks0r7.github.io/)
+# Manuales
 
 ## Mi GitHub 
 donde estan todas las herramientas [GitHub](https://github.com/S3RGI09?tab=repositories)
@@ -20,7 +18,7 @@ donde estan todas las herramientas [GitHub](https://github.com/S3RGI09?tab=repos
 
 
 # [Scan](/blog/scan)
-![167315668-5b6290ae-3acd-451e-abb4-10b2fd353a23](https://user-images.githubusercontent.com/96842235/169378238-ce5da0d2-f192-453a-a87f-a82055293db4.png)
+![$  Scan py (1)](https://user-images.githubusercontent.com/96842235/171236374-fe4c3391-111b-4ca1-a901-1f9fa728e5d2.png)
 
 
 
