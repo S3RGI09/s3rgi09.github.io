@@ -23,5 +23,11 @@ donde estan todas las herramientas [GitHub](https://github.com/S3RGI09?tab=repos
 
 
 
+# [TssPentest](/blog/tsspentest)
+![$   TSSPENTEST  sh (1)](https://user-images.githubusercontent.com/96842235/171245532-947ed8ce-8c3d-4da3-b4b9-d85e8d9be514.png)
+
+
+
+
 # [Tssrecon](/blog/tssrecon)
 ![Captura de pantalla_2022-05-11_23-24-36](https://user-images.githubusercontent.com/96842235/167950278-05fd70cd-c0a4-4b6a-b017-c0f56bd31c7c.png)
