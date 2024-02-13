@@ -10,8 +10,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   });
 
   if (authenticated) {
-    // Redirige al usuario a la página protegida
-    window.location.href = 'pagina_protegida.html';
+    // Redirige al usuario a la página principal ('index.html') después de iniciar sesión correctamente
+    window.location.href = 'index.html';
   } else {
     alert('Credenciales incorrectas. Inténtalo de nuevo.');
   }
