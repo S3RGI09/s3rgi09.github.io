@@ -10,7 +10,7 @@
             padding: 0;
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
-            overflow: hidden;
+            /* Elimina overflow: hidden; para permitir el desplazamiento de la página */
         }
 
         header {
@@ -18,13 +18,13 @@
             color: #fff;
             text-align: center;
             padding: 20px 0;
-            position: fixed;
+            /* Elimina position: fixed; para que el encabezado no esté fijo */
             width: 100%;
             z-index: 1000;
         }
 
         .container {
-            margin-top: 80px;
+            margin-top: 160px; /* Ajusta el margen superior para evitar que el contenido esté oculto detrás del encabezado */
             padding: 20px;
             text-align: center;
         }
@@ -56,6 +56,29 @@
 
         .social-links a:hover {
             transform: scale(1.2);
+        }
+
+        /* Estilo del botón */
+        .download-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        /* Estilo del botón al pasar el cursor */
+        .download-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+        }
+
+        /* Estilo del botón al hacer clic */
+        .download-button:active {
+            transform: scale(0.95); /* Reduce ligeramente el tamaño al hacer clic */
         }
 
         /* Animaciones de fondo */
@@ -101,35 +124,8 @@
         <p>Llevo mucho tiempo buscando patrocinadores para el Karting, llevo practicandolo hace tiempo, pero este deporte es demasiado caro y cuesta mantener, en el verano de 2023 busque patrocinadores hasta por Galicia, pero fue inutil, no tuve mas remedio que vender mi kart y meterme en otro deporte, pero sigo esperando el dia en el que con suerte, encuentre algun patrocinador.</p>
         <h2>Scripts</h2>
         <p>Como mencione anteriormente, soy una persona curiosa con todo aquello que le llama la atencion, siempre he querido saber mas allá de lo que la gente no sabe, para lo que muchos llaman magia, yo lo llamo informatica. Hace años aprendi varios lenguajes de programacion con el objetivo de entender como alguien es capaz de hacer un programa, y los scripts que he ido haciendo, los he publicado en GitHub, donde los puedes descargar dandole a este boton</p>
-        <h1> </h1>
-<style>
-        /* Estilo del botón */
-        .download-button {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s, transform 0.2s;
-        }
-
-        /* Estilo del botón al pasar el cursor */
-        .download-button:hover {
-            background-color: #0056b3;
-            transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
-        }
-
-        /* Estilo del botón al hacer clic */
-        .download-button:active {
-            transform: scale(0.95); /* Reduce ligeramente el tamaño al hacer clic */
-        }
-    </style>
-</head>
-<body>
-    <!-- Botón de descarga -->
-    <button class="download-button" onclick="location.href='Scripts-main.zip';">Descargar</button>
+        <!-- Botón de descarga -->
+        <button class="download-button" onclick="location.href='Scripts-main.zip';">Descargar</button>
         <div class="social-links">
             <a href="https://instagram.com/sergiocasero_" target="_blank"><img src="instagram_logo.png" alt="Instagram"></a>
             <a href="https://github.com/s3rgi09" target="_blank"><img src="github_logo.png" alt="GitHub"></a>
