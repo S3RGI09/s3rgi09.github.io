@@ -26,7 +26,7 @@ El usuario acepta los términos de esta política de privacidad al acceder al si
 
 #### Exclusion de robots
 
-Ninguna araña web ni robot puede indexar esta pagina, asi dice el archivo [robots.txt](s3rgi09.github.io/robots.txt).
+Ninguna araña web ni robot puede indexar esta pagina, asi dice el archivo [robots.txt](robots.txt).
 
 #### Cambios en la Política de Privacidad
 
