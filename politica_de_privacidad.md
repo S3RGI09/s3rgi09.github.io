@@ -24,6 +24,10 @@ La contraseña del usuario no se divulga ni se comparte con terceros, a menos qu
 
 El usuario acepta los términos de esta política de privacidad al acceder al sitio web y proporcionar la contraseña necesaria para iniciar sesión.
 
+#### Exclusion de robots
+
+Ninguna araña web ni robot puede indexar esta pagina, asi dice el archivo [robots.txt](s3rgi09.github.io/robots.txt).
+
 #### Cambios en la Política de Privacidad
 
 Cualquier cambio en esta política de privacidad se publicará en el sitio web.
