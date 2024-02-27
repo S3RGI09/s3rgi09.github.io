@@ -57,24 +57,29 @@
     <div class="container">
         <h1>Iniciar Sesión</h1>
         <h3>S3RGI09</h3>
-        <?php
-        // Verifica si se ha enviado el formulario
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            // Verifica si se ha enviado la contraseña y si es correcta
-            if (isset($_POST["password"]) && $_POST["password"] == "9 de junio") {
-                // Redirige al usuario a la página deseada después del inicio de sesión
-                header("Location: s3rgi09.github.io/s3rgi09");
-                exit; // Asegura que el script se detenga aquí
-            } else {
-                echo "<p style='color: red;'>Contraseña incorrecta. Inténtalo de nuevo.</p>";
-            }
-        }
-        ?>
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <input type="password" name="password" placeholder="Introduce tu contraseña" required>
+        <form id="loginForm">
+            <input type="password" id="password" placeholder="Introduce tu contraseña" required>
             <br>
             <button type="submit">Acceder</button>
         </form>
     </div>
+
+    <script>
+        // Manejar el evento de envío del formulario
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar el envío del formulario
+
+            // Obtener la contraseña ingresada por el usuario
+            var password = document.getElementById("password").value;
+
+            // Verificar si la contraseña es correcta
+            if (password === "9 de junio") {
+                // Redirigir al usuario a la página secreta
+                window.location.href = "https://s3rgi09.github.io/s3rgi09";
+            } else {
+                alert("Contraseña incorrecta. Inténtalo de nuevo.");
+            }
+        });
+    </script>
 </body>
 </html>
