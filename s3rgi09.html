@@ -9,15 +9,28 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /*Azul claro*/
+            background-color: #f0f8ff; /* Azul claro */
             color: #333;
         }
         
         header {
-            background-color: #2E8B57; /*Verde oscuro*/
+            background-color: #2E8B57; /* Verde oscuro */
             color: white;
             text-align: center;
             padding: 20px;
+        }
+        
+        nav {
+            background-color: #1E90FF; /* Azul medio */
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            cursor: pointer;
         }
         
         section {
@@ -25,18 +38,41 @@
         }
         
         footer {
-            background-color: #ADD8E6; /*Azul claro*/
+            background-color: #ADD8E6; /* Azul claro */
             text-align: center;
             padding: 10px;
         }
         
         button {
-            background-color: #1E90FF; /*Azul medio*/
-            color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin-top: 10px;
+        }
+
+        /* Botón Instagram */
+        footer a:nth-child(1) button {
+            background-color: #FF69B4; /* Rosa fucsia */
+            color: white;
+        }
+
+        /* Botón GitHub */
+        footer a:nth-child(2) button {
+            background-color: black; /* Negro */
+            color: white;
+        }
+
+        /* Botón Dropbox */
+        footer a:nth-child(3) button {
+            background-color: #1E90FF; /* Azul medio */
+            color: white;
+        }
+
+        /* Botón Proton */
+        footer a:nth-child(4) button {
+            background-color: #9370DB; /* Morado */
+            color: white;
         }
     </style>
 </head>
@@ -46,6 +82,13 @@
         <p>¡Bienvenido a mi página personal! Desde aquí puedes acceder a mis redes sociales, explorar mis repositorios en GitHub y mucho más.</p>
     </header>
     
+    <nav>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#scripts">Scripts</a>
+        <a href="#redes-sociales">Redes Sociales</a>
+    </nav>
+
     <section id="sobre-mi">
         <h2>Sobre mí</h2>
         <p>Vivo en Ponferrada, León, soy una persona apasionada por la informática, los coches y el Rugby, aunque en general me gustan los deportes.</p>
@@ -59,13 +102,29 @@
     <section id="scripts">
         <h2>Scripts</h2>
         <p>Como mencioné anteriormente, soy una persona curiosa con todo aquello que llama la atención, siempre he querido saber más allá de lo que la gente no sabe, para lo que muchos llaman magia, yo lo llamo informática. Hace años aprendí varios lenguajes de programación con el objetivo de entender cómo alguien es capaz de hacer un programa, y los scripts que he ido haciendo, los he publicado en GitHub, donde los puedes descargar dándole a este botón.</p>
-        <a href="scripts-main.zip" download><button>Descargar Scripts</button></a>
+        <button style="background-color: green;">Descargar Scripts</button>
     </section>
     
-    <footer>
+    <footer id="redes-sociales">
         <h3>Redes Sociales</h3>
-        <a href="https://www.instagram.com/sergiocasero_" target="_blank"><button>Instagram</button></a>
-        <a href="https://github.com/S3RGI09" target="_blank"><button>GitHub</button></a>
+        <a href="https://www.instagram.com/sergiocasero_" target="_blank"><button style="background-color: #FF69B4;">Instagram</button></a>
+        <a href="https://github.com/S3RGI09" target="_blank"><button style="background-color: black;">GitHub</button></a>
+        <a href="https://www.dropbox.com" target="_blank"><button style="background-color: blue; color: white;">Dropbox</button></a>
+        <a href="https://proton.com" target="_blank"><button style="background-color: purple; color: white;">Proton</button></a>
     </footer>
+
+    <script>
+        // Smooth scrolling para los enlaces del menú
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
