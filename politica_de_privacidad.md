@@ -28,6 +28,10 @@ El usuario acepta los términos de esta política de privacidad al acceder al si
 
 Ninguna araña web ni robot puede indexar esta pagina, asi dice el archivo [robots.txt](robots.txt).
 
+#### Actividad sospechosa detectada
+
+Si se detecta una actividad sospechosa en una IP tengo el derecho a bloquear las solicitudes HTTP/S de esa IP a la web, no sin antes mostrar avisos donde aclaro que la IP es almacenada y enviada a mi e-mail, donde despues de eso, puedo tomar acciones legales contra el intruso, en caso de que sea un robot, saltara un CAPTCHA para comprobar la identidad del intruso, en caso de que sea un robot, se tomaran acciones legales contra la empresa o usuario detras de el, ya que el documento [robots.txt](robots.txt) prohibe la entrada a bots y arañas a la web.
+
 #### Cambios en la Política de Privacidad
 
 Cualquier cambio en esta política de privacidad se publicará en el sitio web.
