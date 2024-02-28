@@ -41,6 +41,33 @@
             margin-top: 40px;
         }
 
+        #captcha {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #inputCaptcha {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        #submitBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ffffff; /* Fondo blanco */
+            color: #ff0000; /* Texto rojo chillón */
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        #submitBtn:hover {
+            background-color: #ff0000; /* Fondo rojo chillón */
+            color: #ffffff; /* Texto blanco */
+        }
+
         a {
             color: #ffffff; /* Texto blanco */
             text-decoration: none;
@@ -63,19 +90,42 @@
         <p><strong>Su IP ha sido registrada y será verificada.</strong></p>
         <p>De ser necesario, se tomarán acciones legales.</p>
     </div>
+    <div id="captcha"></div>
+    <input type="text" id="inputCaptcha" placeholder="Introduce el resultado del CAPTCHA" required>
+    <button id="submitBtn" onclick="verifyCaptcha()">Verificar</button>
     <a href="index.html">Volver a Iniciar Sesión</a>
     <div id="ip"></div>
 
     <script>
+        function generateCaptcha() {
+            var num1 = Math.floor(Math.random() * 10);
+            var num2 = Math.floor(Math.random() * 10);
+            var operation = '+';
+            var result = num1 + num2;
+            var captchaText = num1 + ' ' + operation + ' ' + num2 + ' = ?';
+            document.getElementById('captcha').innerText = captchaText;
+            return result;
+        }
+
+        function verifyCaptcha() {
+            var inputCaptcha = document.getElementById('inputCaptcha').value;
+            var captchaResult = generateCaptcha();
+            if (parseInt(inputCaptcha) === captchaResult) {
+                alert('¡CAPTCHA correcto! Eres humano.');
+                // Aquí podrías incluir el código para continuar con la acción deseada
+            } else {
+                alert('Respuesta incorrecta. Inténtalo de nuevo.');
+                // Aquí podrías incluir el código para manejar la respuesta incorrecta
+            }
+        }
+
+        // Generar el CAPTCHA al cargar la página
+        window.onload = generateCaptcha;
+
         // Obtener la dirección IP del usuario
         fetch('https://api.ipify.org?format=json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('ip').innerText = 'Su dirección IP: ' + data.ip;
                 // Aquí podrías incluir el código para enviar la IP por correo electrónico
-                // Sin embargo, esto requiere un servicio de terceros y no se puede hacer directamente desde el navegador.
-            })
-            .catch(error => console.error('Error al obtener la dirección IP:', error));
-    </script>
-</body>
-</html>
+                // Sin embargo, esto requiere un servicio de terceros y no
