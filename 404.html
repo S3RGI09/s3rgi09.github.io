@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad Sospechosa</title>
+    <title>¡ADVERTENCIA!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffcccc; /* Fondo rojo claro */
+            background-color: #ff0000; /* Fondo rojo chillón */
+            color: #ffffff; /* Texto blanco */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -19,27 +20,48 @@
         }
 
         h1 {
-            color: #cc0000; /* Rojo oscuro */
+            color: #ffffff; /* Texto blanco */
+            font-size: 3em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
         }
 
         .message {
             margin-bottom: 20px;
-            color: #cc0000; /* Rojo oscuro */
+        }
+
+        p {
+            margin: 10px 0;
+            line-height: 1.5;
         }
 
         #ip {
             font-size: 20px;
-            color: #cc0000; /* Rojo oscuro */
-            margin-top: 20px;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+
+        a {
+            color: #ffffff; /* Texto blanco */
+            text-decoration: none;
+            border: 2px solid #ffffff; /* Borde blanco */
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #ffffff; /* Fondo blanco */
+            color: #ff0000; /* Texto rojo chillón */
         }
     </style>
 </head>
 <body>
-    <h1>ADVERTENCIA</h1>
+    <h1>¡ADVERTENCIA!</h1>
     <div class="message">
-        <h2>ACTIVIDAD SOSPECHOSA DETECTADA</h2>
-        <p>Se ha registrado su dirección IP y se verificará su acceso.</p>
-        <p>De ser necesario, se tomarán medidas legales.</p>
+        <p>SE HA DETECTADO UNA ACTIVIDAD SOSPECHOSA.</p>
+        <p>Su IP ha sido registrada y será verificada.</p>
+        <p>De ser necesario, se tomarán acciones legales.</p>
     </div>
     <a href="index.html">Volver a Iniciar Sesión</a>
     <div id="ip"></div>
