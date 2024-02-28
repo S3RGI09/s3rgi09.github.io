@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #ffcccc; /* Fondo rojo claro */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -18,22 +18,28 @@
             text-align: center;
         }
 
+        h1 {
+            color: #cc0000; /* Rojo oscuro */
+        }
+
         .message {
             margin-bottom: 20px;
+            color: #cc0000; /* Rojo oscuro */
         }
 
         #ip {
             font-size: 20px;
-            color: #333;
+            color: #cc0000; /* Rojo oscuro */
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
+    <h1>ADVERTENCIA</h1>
     <div class="message">
-        <p>Su IP ha quedado registrada por actividad sospechosa.</p>
-        <p>Se comprobará si ha accedido a la web de manera no permitida.</p>
-        <p>De ser el caso, se iniciarán acciones legales.</p>
+        <p>ACTIVIDAD SOSPECHOSA DETECTADA</p>
+        <p>Se ha registrado su dirección IP y se verificará su acceso.</p>
+        <p>De ser necesario, se tomarán medidas legales.</p>
     </div>
     <a href="index.html">Volver a Iniciar Sesión</a>
     <div id="ip"></div>
@@ -44,6 +50,8 @@
             .then(response => response.json())
             .then(data => {
                 document.getElementById('ip').innerText = 'Su dirección IP: ' + data.ip;
+                // Aquí podrías incluir el código para enviar la IP por correo electrónico
+                // Sin embargo, esto requiere un servicio de terceros y no se puede hacer directamente desde el navegador.
             })
             .catch(error => console.error('Error al obtener la dirección IP:', error));
     </script>
