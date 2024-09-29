@@ -49,6 +49,6 @@ if __name__ == "__main__":
     data = {'key1': 'value1', 'key2': 'value2'}  # Change keys and values as needed
     send_post_request(url, data)
 ```
-### Contact
+## Contact
 
-If you would like to get in touch with me, you can email me at sergiocaseroverdial@gmail.com
+If you want to contact me you can do so through [Telegram](https://t.me/abdogie)
