@@ -4,7 +4,9 @@ Welcome to my personal page! I'm **S3RGI09**, a cybersecurity enthusiast with a 
 
 ## About Me
 
-I am a software developer with experience in cybersecurity. I enjoy exploring new technologies and learning how to protect systems against threats. My areas of interest include security analysis, automated scripting, and creating useful tools to enhance cybersecurity.
+I am a software developer with experience in cybersecurity. I enjoy exploring new technologies and learning how to protect systems against threats. My areas of interest include security analysis, automated scripting, and creating useful tools to enhance cybersecurity. 
+I can program in multiple languages, but the one I use the most is Python. 
+I speak Spanish and English.
 
 ## Cybersecurity Projects
 
