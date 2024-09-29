@@ -37,7 +37,8 @@ if __name__ == "__main__":
 
 This script allows you to send POST requests to a website and display the response.
 
-```import requests
+```
+import requests
 
 def send_post_request(url, data):
     response = requests.post(url, data=data)
