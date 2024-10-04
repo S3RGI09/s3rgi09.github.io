@@ -52,6 +52,24 @@ if __name__ == "__main__":
     data = {'key1': 'value1', 'key2': 'value2'}  # Change keys and values as needed
     send_post_request(url, data)
 ```
+## Services
+
+### Security audits
+
+I can perform security audits on websites and infrastructures. I charge very competitive rates for a quality service.
+### Web page creation
+
+I can create custom web pages in HTML, CSS and JS, I also master WordPress
+### Database management
+
+I can help you manage and work with SQL, JSON, VBA (Excel) and XML databases
+### SEO Configuration
+
+I can help you optimize your website so that it appears first in search engines
+### More
+
+Contact me to see what other services I can offer you.
+
 ## Contact
 
 If you want to contact me you can do so through [Telegram](https://t.me/abdogie)
