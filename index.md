@@ -72,4 +72,4 @@ Contact me to see what other services I can offer you.
 
 ## Contact
 
-If you want to contact me you can do so through [Telegram](https://t.me/abdogie)
+If you want to contact me you can do so through [Telegram](https://t.me/s3r_gx0)
