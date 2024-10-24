@@ -58,6 +58,10 @@ I have actively contributed to a multitude of free software projects as a develo
 
 Contributing to free software is a hobby for me and contributing to security and improving society in general.
 
+## My startup
+
+I have a startup dedicated to cybersecurity and the creation of custom software, which is going quite well, it is not a giant but at least I earn a little money for doing what I like! :)
+
 ## Services
 
 ### Security audits
@@ -79,3 +83,9 @@ Contact me to see what other services I can offer you.
 ## Contact
 
 If you want to contact me you can do so through [Telegram](https://t.me/s3r_gx0)
+
+## Donations
+
+Any donation is welcome to help me continue contributing and programming.
+
+[Bitcoin Address](BitcoinAddress)
