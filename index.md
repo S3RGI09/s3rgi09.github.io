@@ -52,6 +52,12 @@ if __name__ == "__main__":
     data = {'key1': 'value1', 'key2': 'value2'}  # Change keys and values as needed
     send_post_request(url, data)
 ```
+## Contributions to free software
+
+I have actively contributed to a multitude of free software projects as a developer, some of them being **FreeBSD**, **Zap Proxy**, **Kali**, **Debian**, **Blender**, **LibreOffice**, **Apache2** and many more, sometimes in the code itself, other times improving the website and other times improving the documentation.
+
+Contributing to free software is a hobby for me and contributing to security and improving society in general.
+
 ## Services
 
 ### Security audits
