@@ -8,59 +8,15 @@ I am a software developer with experience in cybersecurity. I enjoy exploring ne
 I can program in multiple languages, but the one I use the most is Python. 
 I speak Spanish and English.
 
-## Cybersecurity Projects
-
-Below are some basic scripts I've created in Python:
-
-### 1. Port Scanner
-
-This is a simple port scanner that checks if a specific port is open on an IP address.
-
-```python
-import socket
-
-def scan_ports(ip, ports):
-    for port in ports:
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.settimeout(1)
-        result = sock.connect_ex((ip, port))
-        if result == 0:
-            print(f"Port {port} is open.")
-        else:
-            print(f"Port {port} is closed.")
-        sock.close()
-
-if __name__ == "__main__":
-    ip_to_scan = input("Enter the IP address to scan: ")
-    ports_to_scan = [21, 22, 80, 443]  # FTP, SSH, HTTP, HTTPS
-    scan_ports(ip_to_scan, ports_to_scan)
-```
-### 2. Script to Send POST Requests
-
-This script allows you to send POST requests to a website and display the response.
-
-```python
-import requests
-
-def send_post_request(url, data):
-    response = requests.post(url, data=data)
-    print(f"Response status code: {response.status_code}")
-    print(f"Server response: {response.text}")
-
-if __name__ == "__main__":
-    url = input("Enter the URL to send the POST request to: ")
-    data = {'key1': 'value1', 'key2': 'value2'}  # Change keys and values as needed
-    send_post_request(url, data)
-```
+## Personal Projects
+'''python
+print("Programming is a fundamental part of my daily life. I adopt a free and community software philosophy, so all my scripts are available to the community on a voluntary basis.")
+'''
 ## Contributions to free software
 
 I have actively contributed to a multitude of free software projects as a developer, some of them being **FreeBSD**, **Zap Proxy**, **Kali**, **Debian**, **Blender**, **LibreOffice**, **Apache2** and many more, sometimes in the code itself, other times improving the website and other times improving the documentation.
 
 Contributing to free software is a hobby for me and contributing to security and improving society in general.
-
-## My startup
-
-I have a startup dedicated to cybersecurity and the creation of custom software, which is going quite well, it is not a giant but at least I earn a little money for doing what I like! :)
 
 ## Services
 
