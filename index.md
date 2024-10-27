@@ -23,19 +23,19 @@ Contributing to free software is a hobby for me and contributing to security and
 
 ## Services
 
-- **Security audits**
+#### Security audits
 
 I can perform security audits on websites and infrastructures. I charge very competitive rates for a quality service.
-- **Web page creation**
+#### Web page creation
 
 I can create custom web pages in HTML, CSS and JS, I also master WordPress
-- **Database management**
+#### Database management
 
 I can help you manage and work with SQL, JSON, VBA (Excel) and XML databases
-- **SEO Configuration**
+#### SEO Configuration
 
 I can help you optimize your website so that it appears first in search engines
-- **More**
+#### More
 
 Contact me to see what other services I can offer you.
 
