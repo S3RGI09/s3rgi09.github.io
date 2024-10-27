@@ -10,9 +10,10 @@ I speak Spanish and English.
 
 ## Personal Projects
 
-<div style="width: 100%; overflow: auto;">
+Programming is a fundamental part of my daily life. I adopt a free and community software philosophy, so all my scripts are available to the community on a voluntary basis.
+
 ```python
-print("Programming is a fundamental part of my daily life. I adopt a free and community software philosophy, so all my scripts are available to the community on a voluntary basis.")
+print("Free software is a gift to humanity. — R. St. Amant.")
 ```
 ## Contributions to free software
 
