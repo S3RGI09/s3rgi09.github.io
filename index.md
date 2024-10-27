@@ -9,6 +9,8 @@ I can program in multiple languages, but the one I use the most is Python.
 I speak Spanish and English.
 
 ## Personal Projects
+
+<div style="width: 100%; overflow: auto;">
 ```python
 print("Programming is a fundamental part of my daily life. I adopt a free and community software philosophy, so all my scripts are available to the community on a voluntary basis.")
 ```
