@@ -9,9 +9,9 @@ I can program in multiple languages, but the one I use the most is Python.
 I speak Spanish and English.
 
 ## Personal Projects
-'''python
+```python
 print("Programming is a fundamental part of my daily life. I adopt a free and community software philosophy, so all my scripts are available to the community on a voluntary basis.")
-'''
+```
 ## Contributions to free software
 
 I have actively contributed to a multitude of free software projects as a developer, some of them being **FreeBSD**, **Zap Proxy**, **Kali**, **Debian**, **Blender**, **LibreOffice**, **Apache2** and many more, sometimes in the code itself, other times improving the website and other times improving the documentation.
