@@ -41,8 +41,7 @@ Contact me to see what other services I can offer you.
 
 ## Contact
 
-If you want to contact me you can do so through [Telegram](https://t.me/s3r_gx0)
-
+If you want to contact me you can do so through [Telegram](https://t.me/s3r_gx0) or [e-mail](mailto://s3rgi09@iname.com)
 ## Donations
 
 Any donation is welcome to help me continue contributing and programming.
