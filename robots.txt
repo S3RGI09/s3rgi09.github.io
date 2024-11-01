@@ -1,2 +1,38 @@
 User-agent: *
-Disallow:
+Disallow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Yahoo! Slurp
+Allow: /
+
+User-agent: StartPage
+Allow: /
+
+User-agent: Ecosia
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: Ask
+Allow: /
+
+User-agent: Qwant
+Allow: /
