@@ -17,7 +17,7 @@ print("Free software is a gift to humanity. — R. St. Amant.")
 ```
 ## Contributions to free software
 
-I have actively contributed to a multitude of free software projects as a developer, some of them being **FreeBSD**, **Zap Proxy**, **Kali**, **Debian**, **Blender**, **LibreOffice**, **Apache2** and many more, sometimes in the code itself, other times improving the website and other times improving the documentation.
+I have actively contributed to a multitude of free software projects as a developer, some of them being **FreeBSD**, **Zap Proxy**, **Kali**, **Debian**, **Blender**, **LibreOffice**, **Apache2**, **Nmap**, **Tor project**, **Aircrack-ng** and many more, sometimes in the code itself, other times improving the website and other times improving the documentation.
 
 Contributing to free software is a hobby for me and contributing to security and improving society in general.
 
