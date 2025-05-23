@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sergio's Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      padding-bottom: 80px;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 40px 20px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    }
+    .profile-image img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #e50914;
+      box-shadow: 0 0 20px #e50914;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 2.5rem;
+      color: #e50914;
+    }
+    .responsive-img {
+      max-width: 100%;
+      max-height: 300px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    p.subtitle {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #1a1a1a;
+      padding: 12px 0;
+      text-align: center;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    nav a {
+      color: #ffffff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e50914;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #e50914;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a.project-link {
+      color: #e50914;
+      text-decoration: none;
+    }
+
+    .skill-section {
+      margin-top: 40px;
+    }
+    .skill-category {
+      margin-bottom: 30px;
+    }
+    .skill-category h3 {
+      color: #ff4a4a;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #e50914;
+      padding-bottom: 5px;
+    }
+    .skill {
+      margin-bottom: 15px;
+    }
+    .skill-name {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .progress-bar {
+      background-color: #333;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 14px;
+    }
+    .progress {
+      height: 100%;
+      background: linear-gradient(90deg, #e50914, #ff4a4a);
+      width: 0%;
+      transition: width 1s ease-in-out;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 15px;
+      width: 100%;
+      bottom: 0;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.4);
+    }
+
+    .social-icons {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .social-icons a {
+      margin: 0 15px;
+      display: inline-block;
+    }
+    .social-icons img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+      filter: drop-shadow(0 0 5px #e50914);
+    }
+    .social-icons img:hover {
+      transform: scale(1.2);
+    }
+
+    body.loaded .progress.python  { width: 90%; }
+    body.loaded .progress.bash    { width: 100%; }
+    body.loaded .progress.java    { width: 45%; }
+    body.loaded .progress.php     { width: 85%; }
+    body.loaded .progress.cyb     { width: 75%; }
+    body.loaded .progress.dev     { width: 75%; }
+    body.loaded .progress.backend { width: 85%; }
+    body.loaded .progress.frontend{ width: 95%; }
+    body.loaded .progress.cloud   { width: 65%; }
+    body.loaded .progress.esp     { width: 100%; }
+    body.loaded .progress.eng     { width: 60%; }
+    body.loaded .progress.fr      { width: 20%; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="profile-image">
+    <img src="https://avatars.githubusercontent.com/u/96842235?v=4" alt="Sergio's Avatar">
+  </div>
+  <h1>S3RGI09</h1>
+  <p class="subtitle"><strong>Cybersecurity 👨‍💻 | MMA 🥊 | Mechanics 🏎️ | Guitar 🎸 </strong></p>
+</header>
+
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I'm Sergio, a passionate student delving into the world of cybersecurity. My journey began at the age of 10, sparked by a curiosity about hacking and technology. Over the years, I've honed my skills in areas like Python scripting, Linux systems, and network security.</p>
+  <p>I also love mechanics, mixed martial arts, and playing the guitar—passions that keep me balanced and driven.</p>
+</section>
+
+<section id="projects">
+  <h2>Highlighted Projects</h2>
+  <ul>
+    <li><strong>CyberForecast</strong>: A technology project focused on Web3, Artificial Intelligence, Blockchain and Software <a class="project-link" href="https://cyberforecast.pages.dev" target="_blank">Visit CyberForecast</a></li>
+    <li><strong>SoulDown</strong>: Software for downloading music and video from streaming platforms like YouTube. <a class="project-link" href="https://cyberforecast.github.io/SoulDown/" target="_blank">Visit SoulDown</a></li>
+  </ul>
+  <h3>Open Source Contributions</h3>
+  <ul>
+    <li>Debian</li>
+    <li>FreeBSD</li>
+    <li>Nmap</li>
+    <li>Metasploit</li>
+    <li>Apache Cassandra</li>
+  </ul>
+</section>
+
+<section id="skills" class="skill-section">
+  <h2>Skills</h2>
+
+  <div class="skill-category">
+    <h3>Programming Languages</h3>
+    <div class="skill"><div class="skill-name">Python <span>90%</span></div><div class="progress-bar"><div class="progress python"></div></div></div>
+    <div class="skill"><div class="skill-name">Bash <span>100%</span></div><div class="progress-bar"><div class="progress bash"></div></div></div>
+    <div class="skill"><div class="skill-name">Java <span>45%</span></div><div class="progress-bar"><div class="progress java"></div></div></div>
+    <div class="skill"><div class="skill-name">PHP <span>85%</span></div><div class="progress-bar"><div class="progress php"></div></div></div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Tech & Cyber Skills</h3>
+    <div class="skill"><div class="skill-name">Cybersecurity <span>75%</span></div><div class="progress-bar"><div class="progress cyb"></div></div></div>
+    <div class="skill"><div class="skill-name">Backend Dev <span>85%</span></div><div class="progress-bar"><div class="progress backend"></div></div></div>
+    <div class="skill"><div class="skill-name">Frontend Dev <span>95%</span></div><div class="progress-bar"><div class="progress frontend"></div></div></div>
+    <div class="skill"><div class="skill-name">Cloud Computing <span>65%</span></div><div class="progress-bar"><div class="progress cloud"></div></div></div>
+    <div class="skill"><div class="skill-name">General Developer <span>75%</span></div><div class="progress-bar"><div class="progress dev"></div></div></div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Languages</h3>
+    <div class="skill"><div class="skill-name">Spanish (Native) <span>100%</span></div><div class="progress-bar"><div class="progress esp"></div></div></div>
+    <div class="skill"><div class="skill-name">English (B1+) <span>60%</span></div><div class="progress-bar"><div class="progress eng"></div></div></div>
+    <div class="skill"><div class="skill-name">French (A1) <span>20%</span></div><div class="progress-bar"><div class="progress fr"></div></div></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact & Resume</h2>
+  <p>You can reach me at: <a href="mailto:s3rgi09@iname.com" style="color: #e50914;">s3rgi09@iname.com</a></p>
+  <p>You can download my resume: <a href="resume.pdf" style="color: #e50914;">here</a></p>
+</section>
+
+<div class="center">
+  <a href="https://github.com/s3rgi09">
+    <img class="responsive-img" src="https://github-readme-stats.vercel.app/api?username=s3rgi09&count_private=true&show_icons=true&title_color=ff0000&icon_color=cc0000&text_color=ff4d4d&bg_color=000000" alt="s3rgi09 github stats">
+  </a>
+</div>
+
+<div class="social-icons">
+  <a href="https://github.com/s3rgi09" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+  </a>
+  <a href="https://mastodon.social/@s3rgi09" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg/2048px-Mastodon_logotype_%28simple%29_new_hue.svg.png" alt="Mastodon">
+  </a>
+</div>
+
+<footer>
+  <p><strong>&copy; s3rgi09</strong></p>
+</footer>
+
+<script>
+  window.addEventListener("load", () => {
+    document.body.classList.add("loaded");
+  });
+</script>
+
+</body>
+</html>
