@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoulSeek Userpage - Sergio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset y estilos base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #1e1e2f;
+      color: #eee;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #ff6f61;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contenedor principal */
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: linear-gradient(145deg, #2a2a3f, #1e1e2f);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      border: 1px solid #333;
+    }
+
+    h1 {
+      color: #ff6f61;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: #ffa07a;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+      padding-left: 1.5em;
+      position: relative;
+    }
+
+    li::before {
+      content: "🎵";
+      position: absolute;
+      left: 0;
+    }
+
+    /* Tarjeta musical */
+    .music-card {
+      background-color: #2f2f45;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #444;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .music-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 15px rgba(255, 111, 97, 0.4);
+    }
+
+    /* Footer animado */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    /* Botón interactivo */
+    .toggle-btn {
+      background-color: #ff6f61;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .toggle-btn:hover {
+      background-color: #ff4c3b;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SoulSeek Userpage</h1>
+    <p>Hello! I'm <strong>Sergio</strong> (<em>Serx_i0</em> on SoulSeek)</p>
+    <p>On this page you will find some limitations regarding my participation in the network and my musical tastes.</p>
+    
+    <h3>Limitations:</h3>
+    <ul>
+      <li>Bandwidth limited to 3MB/s</li>
+      <li>Maximum number of devices downloading simultaneously: 3</li>
+      <li>I do not guarantee 24/7 availability or stability of downloads.</li>
+    </ul>
+    
+    <h3>My musical tastes</h3>
+    <div class="music-card">
+      I enjoy <strong>rock</strong> and <strong>country</strong> in all its forms, you can also find some electronic or urban music.
+    </div>
+    <div class="music-card">
+      The reason I participate in the network is purely altruistic; music is a special part of my life, and I want to share my entire library with people who share my tastes.
+    </div>
+
+    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark/Light Mode</button>
+  </div>
+
+  <footer>
+    &copy; 2025 Sergio - SoulSeek Community
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      const body = document.body;
+      body.style.backgroundColor = body.style.backgroundColor === 'white' ? '#1e1e2f' : 'white';
+      body.style.color = body.style.color === 'black' ? '#eee' : 'black';
+      document.querySelectorAll('.container').forEach(c => {
+        c.style.background = c.style.background === 'white' ? 'linear-gradient(145deg, #2a2a3f, #1e1e2f)' : 'white';
+        c.style.color = c.style.color === 'black' ? '#eee' : 'black';
+      });
+      document.querySelectorAll('.music-card').forEach(mc => {
+        mc.style.backgroundColor = mc.style.backgroundColor === 'white' ? '#2f2f45' : 'white';
+        mc.style.color = mc.style.color === 'black' ? '#eee' : 'black';
+      });
+    }
+  </script>
+</body>
+</html>
